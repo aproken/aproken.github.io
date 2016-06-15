@@ -1,0 +1,18 @@
+.column-arrow {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 20%;
+  min-height: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-left: 30%;
+  padding-left: 5vw;
+}
+.column-arrow:first-child {
+  padding-left: 3vw;
+}
+.column-arrow:last-child {
+  padding-left: 5vw;
+  padding-right: 3vw;
+}
