@@ -1,0 +1,340 @@
+.to-page {
+  margin-bottom: 5px;
+  text-align: center;
+  width: 170px;
+  height: 134px;
+  background: linear-gradient(to top, #dadada, #f3f3f3);
+  border: 1px solid #999999;
+  border-radius: 6px;
+}
+
+.to-page-img {
+  height: 60px; 
+}
+
+.num-bochka {
+  color: #333333;
+  font-size: 30px;
+}
+
+.litle-name-bochka {
+  font-size: 30px;
+  font-family: 'Opensans';
+  font-weight: lighter;
+  color: #1a1a1a;
+}
+
+.cont {
+  width: 200px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont.value-0 {
+  background-image: url(../img/bochka/bo4ka.svg#level_0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.cont.value-1 {
+  background-image: url(../img/bochka/bo4ka.svg#level_1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.cont.value-2 {
+  background-image: url(../img/bochka/bo4ka.svg#level_2);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+
+.cont.value-3 {
+  background-image: url(../img/bochka/bo4ka.svg#level_3);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.cont.value-4 {
+  background-image: url(../img/bochka/bo4ka.svg#level_4);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.cont.value-5 {
+  background-image: url(../img/bochka/bo4ka.svg#level_5);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+
+.cont.value-6 {
+  background-image: url(../img/bochka/bo4ka.svg#level_6);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.cont.value-7 {
+  background-image: url(../img/bochka/bo4ka.svg#level_7);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.cont.value-8 {
+  background-image: url(../img/bochka/bo4ka.svg#level_8);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+
+.cont.value-9 {
+  background-image: url(../img/bochka/bo4ka.svg#level_9);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.total-value {
+  padding-top: 10px;
+  background: linear-gradient(to top, #10c01f, #54f26a);
+  border: 1px #0c9b20 solid;
+  color: #1a1a1a;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.mini_bo4ka-0 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-1 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-2 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_2);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-3 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_3);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-4 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_4);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-5 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_5);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-6 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_6);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-7 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_7);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-8 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_8);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.mini_bo4ka-9 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/mini_bo4ka.svg#level_9);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-0 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-1 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-2 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_2);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-3 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_3);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-4 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_4);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-5 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_5);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-6 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_6);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-7 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_7);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-8 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_8);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.container-9 {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/container.svg#level_9);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.fluid-mean {
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../img/bochka/fluid-mean.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.circle {
+  background: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle p {
+  text-align: center;
+}
+
+.full-name-bochka {
+  font-family: "OpenSans";
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #1a1a1a;
+  line-height: 19pt;
+}
+
+.left-5px {
+  margin-left: 38px;
+}
+
+.count-day {
+  font-family: "URWGothicL-Demi";
+  font-weight: lighter;
+  font-size: 32px;
+  line-height: 18px;
+  margin: 18px 0 0 0;
+}

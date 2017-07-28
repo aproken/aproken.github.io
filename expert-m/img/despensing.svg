@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32mm"
+   height="30mm"
+   viewBox="0 0 113.38583 106.29921"
+   id="svg6266"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="despensing.svg">
+  <defs
+     id="defs6268">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4934"
+       x="-0.11659532"
+       width="1.2331907"
+       y="-0.085117035"
+       height="1.1702341">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.8182477"
+         id="feGaussianBlur4936" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.361583"
+     inkscape:cx="68.072163"
+     inkscape:cy="69.913461"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0.5"
+     fit-margin-right="0.5"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6271">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-259.38367,-277.60422)">
+    <g
+       id="g6782"
+       transform="translate(6.0000003,-2.0000001)">
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/20.png"
+         sodipodi:linespacing="125%"
+         id="text6146"
+         y="302.97223"
+         x="307.96964"
+         style="font-style:normal;font-weight:normal;font-size:14.6286068px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="302.97223"
+           x="307.96964"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.61910629px;line-height:125%;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d"
+           id="tspan6148">Выдача</tspan></text>
+      <g
+         transform="translate(173.59059,-254.00696)"
+         id="g5745">
+        <g
+           transform="matrix(0.81086223,0,0,0.81086223,-1.2499954,201.74596)"
+           id="g6452"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"
+           inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/20.png">
+          <g
+             transform="matrix(1.2603727,0,0,1.2603727,-1.0633293,93.605316)"
+             id="g6454"
+             style="opacity:0.63599997;fill:#4d4d4d;filter:url(#filter4934)"
+             inkscape:export-filename="/home/aproken/Рабочий стол/vida4a/vida4a13.png"
+             inkscape:export-xdpi="150"
+             inkscape:export-ydpi="150">
+            <ellipse
+               style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               id="ellipse6456"
+               cx="115.48083"
+               cy="303.50067"
+               rx="18.653244"
+               ry="6.6204739" />
+            <rect
+               style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               id="rect6458"
+               width="35.621677"
+               height="36.769093"
+               x="97.707771"
+               y="303.3988" />
+            <ellipse
+               ry="6.6204739"
+               rx="18.653244"
+               cy="341.52789"
+               cx="115.36047"
+               id="ellipse6460"
+               style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+            <ellipse
+               ry="4.7361846"
+               rx="16.426889"
+               cy="303.55157"
+               cx="115.42064"
+               id="ellipse6462"
+               style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path6464"
+               d="m 132.99338,340.67758 a 17.811725,4.8084377 0 0 1 -17.75575,4.50709 17.811725,4.8084377 0 0 1 -17.536794,-3.97471 17.811725,6.2072454 0 0 0 17.659044,5.45725 17.811725,6.2072454 0 0 0 17.79068,-5.98963 l -0.15718,0 z"
+               style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+            <ellipse
+               style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               id="ellipse6466"
+               cx="115.36047"
+               cy="322.7529"
+               rx="18.653244"
+               ry="6.6204739" />
+            <path
+               style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               d="m 132.99338,321.90262 a 17.811725,4.8084377 0 0 1 -17.75575,4.50708 17.811725,4.8084377 0 0 1 -17.536794,-3.9747 17.811725,6.2072454 0 0 0 17.659044,5.45724 17.811725,6.2072454 0 0 0 17.79068,-5.98962 l -0.15718,0 z"
+               id="path6468"
+               inkscape:connector-curvature="0" />
+            <ellipse
+               style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               id="ellipse6470"
+               cx="106.39493"
+               cy="303.09326"
+               rx="2.7077289"
+               ry="1.2222413" />
+          </g>
+          <ellipse
+             style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="ellipse6472"
+             cx="144.05058"
+             cy="473.73654"
+             rx="23.510038"
+             ry="8.3442631" />
+          <rect
+             style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="rect6474"
+             width="44.896584"
+             height="46.342754"
+             x="121.64995"
+             y="473.60818" />
+          <ellipse
+             ry="8.3442631"
+             rx="23.510038"
+             cy="521.66504"
+             cx="143.89891"
+             id="ellipse6476"
+             style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+          <ellipse
+             style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="ellipse6478"
+             cx="143.89891"
+             cy="498.0015"
+             rx="23.510038"
+             ry="8.3442631" />
+          <path
+             style="opacity:1;fill:#0496f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 143.89611,485.29391 a 19.366765,5.3400679 0 0 0 -19.36662,5.34109 19.366765,5.3400679 0 0 0 0.0293,0.22369 l -0.0809,0 0,30.83516 0.17207,0 a 19.366765,5.3400679 0 0 0 19.24617,4.80079 19.366765,5.3400679 0 0 0 19.26681,-4.80079 l 0.33038,0 0,-30.83516 -0.27188,0 a 19.366765,5.3400679 0 0 0 0.0413,-0.22369 19.366765,5.3400679 0 0 0 -19.36661,-5.34109 z"
+             id="path6480"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 133.83375,587.15191 c 0,0 3.52132,0.4333 5.07299,2.53647 1.55167,2.10318 2.34137,5.07299 2.34137,7.02413 0,1.95114 -0.51833,16.20872 -0.19512,18.53587 0.48779,3.51206 3.12183,3.99986 3.9023,2.24383 0.78044,-1.75603 -0.0975,-18.63344 0.29266,-19.99924 0.39023,-1.3658 0.78046,-2.43894 1.95116,-2.82917 1.17068,-0.39023 0.78045,-2.53648 0.78045,-2.53648 l 7.99968,-8.87772 3.02428,-0.97556 1.75603,-2.14626 6.82901,0 0,3.51205 -6.43877,0.19512 c 0,0 -0.78046,-1.75603 -0.97557,0.39024 -0.19512,2.14626 0.68289,2.7316 -0.87803,4.87786 -1.56091,2.14627 -3.31695,5.07297 -5.26809,5.4632 -1.95114,0.39023 -3.4145,1.3658 -3.99983,2.53649 -0.58535,1.17068 -0.78047,16.38961 -0.78047,18.731 0,2.75932 -0.58535,5.07298 -2.34137,6.24365 -1.75603,1.17068 -5.26809,0.78047 -6.43878,0.39024 -1.17068,-0.39024 -2.73161,-2.43895 -3.31694,-4.19497 -0.58535,-1.75603 -0.53915,-18.83486 -0.39023,-20.58456 0.39023,-4.58521 -2.92673,-5.56078 -2.92673,-5.56078 z"
+           id="path6506"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="czssssscccccccssscssssscc"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"
+           inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/20.png" />
+        <circle
+           r="2.0271554"
+           cy="582.69391"
+           cx="172.25365"
+           id="circle6526"
+           style="opacity:1;fill:#0496f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"
+           inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/20.png" />
+        <circle
+           style="opacity:1;fill:#0496f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle6528"
+           cx="177.38919"
+           cy="586.37683"
+           r="3.0407333"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"
+           inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/20.png" />
+        <circle
+           r="3.8725228"
+           cy="592.86475"
+           cx="183.54442"
+           id="circle6530"
+           style="opacity:1;fill:#0496f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"
+           inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/20.png" />
+      </g>
+    </g>
+  </g>
+</svg>

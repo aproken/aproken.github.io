@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="212"
+   height="24"
+   id="svg5528"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo-text.svg">
+  <defs
+     id="defs5530" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="49.395846"
+     inkscape:cy="-51.428571"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="750"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5533">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1028.3622)">
+    <g
+       id="g5688"
+       transform="translate(-8.8061716,131.28182)"
+       style="fill:#ffffff">
+      <text
+         transform="scale(0.9764478,1.0241203)"
+         xml:space="preserve"
+         style="font-size:15.89531422px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="91.579849"
+         y="894.66339"
+         id="text9599"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/aproken/Рабочий стол/vida4a/vidacha_operator/61.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150"><tspan
+           style="font-size:24.6015873px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:URW Gothic L;-inkscape-font-specification:'URW Gothic L, Normal'"
+           sodipodi:role="line"
+           id="tspan9601"
+           x="91.579849"
+           y="894.66339">Эксперт-М</tspan></text>
+      <text
+         transform="scale(0.9764478,1.0241203)"
+         xml:space="preserve"
+         style="font-size:8.70303822px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:'Sans, Normal'"
+         x="81.642914"
+         y="882.41144"
+         id="text9603"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/aproken/Рабочий стол/vida4a/vidacha_operator/61.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150"><tspan
+           style="font-size:8.70303822px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;font-family:Sans;-inkscape-font-specification:'Sans, Normal'"
+           sodipodi:role="line"
+           id="tspan9605"
+           x="84.413605"
+           y="882.41144">Система </tspan><tspan
+           id="tspan9700"
+           style="font-size:8.70303822px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;font-family:Sans;-inkscape-font-specification:'Sans, Normal'"
+           sodipodi:role="line"
+           x="81.642914"
+           y="893.29022">маслораздачи</tspan></text>
+    </g>
+  </g>
+</svg>

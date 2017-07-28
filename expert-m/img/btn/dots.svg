@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg7461"
+   viewBox="0 0 52.869889 47.629502"
+   height="47.629501"
+   width="52.869888">
+  <defs
+     id="defs7463" />
+  <metadata
+     id="metadata7466">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-184.99363,-271.4046)"
+     id="layer1">
+    <path
+       id="path5821"
+       d="m 198.39062,273.15569 26.0758,0 c 6.452,0 11.646,4.27518 11.646,9.58556 l 0,24.94047 c 0,5.31038 -5.194,9.58553 -11.646,9.58553 l -26.0758,0 c 0,0 -11.6014,0.81263 -11.6459,-9.58542 l 0,-24.94048 c 0,-5.31037 5.1942,-9.58555 11.6459,-9.58555 z"
+       style="fill:#dddee1;fill-opacity:1;fill-rule:evenodd;stroke:#737373;stroke-width:1.50218642;stroke-opacity:1" />
+    <g
+       transform="matrix(1.8958461,0,0,1.8958461,-2063.9422,-801.6218)"
+       id="g5824"
+       style="fill:#737373;fill-opacity:1">
+      <path
+         id="path5826"
+         d="m 1196.125,326.1875 c 0,1.07005 -0.8674,1.9375 -1.9375,1.9375 -1.0701,0 -1.9375,-0.86745 -1.9375,-1.9375 0,-1.07005 0.8674,-1.9375 1.9375,-1.9375 1.0562,0 1.9178,0.84589 1.9372,1.90188"
+         style="fill:#737373;fill-opacity:1;stroke:none"
+         transform="translate(0,252.36218)" />
+      <path
+         id="path5828"
+         d="m 1196.125,326.1875 c 0,1.07005 -0.8674,1.9375 -1.9375,1.9375 -1.0701,0 -1.9375,-0.86745 -1.9375,-1.9375 0,-1.07005 0.8674,-1.9375 1.9375,-1.9375 1.0562,0 1.9178,0.84589 1.9372,1.90188"
+         style="fill:#737373;fill-opacity:1;stroke:none"
+         transform="translate(6,252.36218)" />
+      <path
+         id="path5830"
+         d="m 1196.125,326.1875 c 0,1.07005 -0.8674,1.9375 -1.9375,1.9375 -1.0701,0 -1.9375,-0.86745 -1.9375,-1.9375 0,-1.07005 0.8674,-1.9375 1.9375,-1.9375 1.0562,0 1.9178,0.84589 1.9372,1.90188"
+         style="fill:#737373;fill-opacity:1;stroke:none"
+         transform="translate(12,252.36218)" />
+    </g>
+  </g>
+</svg>

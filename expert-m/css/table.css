@@ -1,0 +1,338 @@
+num
+.table-wrapper,
+.table-otchet {
+  margin-left: -10px;
+  position: relative;
+  width: 100%;
+}
+
+table.scroll {
+  width: 100%;
+}
+
+.table-wrapper > .col-select {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  text-align: center;
+  display: block;
+}
+
+thead th {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.table-otchet th {
+  font-weight: normal;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color:  #999999;
+  background-color: #e6e6e6;
+}
+
+.table-otchet td {
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color:  #b3b3b3;
+}
+
+.table-otchet tr {
+  height: 40px;
+}
+
+.table-otchet tr:nth-child(odd) {
+  background-color: #b3b3b3;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color:  #b3b3b3;
+}
+
+table.scroll tbody tr {
+  position:relative;
+  height: 80px;
+}
+
+table.scroll tbody tr:nth-child(odd) {
+   background-color: #d1d1d1;
+}
+
+table.scroll tbody tr:after {
+  content: ' ';
+  position:absolute;
+  top: 0;
+  right: 0px;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(to top, #ffffff, #b4bac0);
+}
+
+table.scroll tbody {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.oil-cell {
+  text-align: left;
+  font-family: "OpenSans";
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.type-cell {
+  text-align: center;
+  font-family: "OpenSans";
+  font-weight: lighter;
+  font-size: 25px;
+  color: #1a1a1a;
+}
+
+.light-cell {
+  text-align: center;
+  font-family: "OpenSans";
+  font-weight: lighter;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.point-cell,
+.fluid-type-cell {
+  text-align: center;
+  font-family: "OpenSans";
+  font-weight: lighter;
+  font-size: 23px;
+}
+
+.area-cell,
+.num-area li {
+  width: 57px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('../img/area.svg');
+  text-align: center;
+}
+
+.date-cell {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 15px;
+}
+
+.progress {
+  height: 14px;
+  overflow: hidden;
+  background-color: #4d4d4d;
+  border-radius: 7px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+  border: 1px solid #808080;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+.progress-value {text-align: center;}
+
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    transition: width .6s ease;
+}
+
+.progress-bar.progress-bar__green {
+  background: linear-gradient(to bottom, #1cc331 0%,#4beb61 100%,#4beb61 100%);
+}
+
+.progress-bar__blue {
+background: linear-gradient(to bottom, #6abffc 0%,#3287fb 100%,#3287fb 100%);
+}
+
+.progress-bar__gray {
+background: linear-gradient(to bottom, #dadddf 0%,#d6d7db 100%,#d6d7db 100%);
+}
+
+.btn-not-active {
+  background-image: url('../img/btn/play-not-active.svg');
+}
+
+.btn-status-not-active {
+  background-image: url('../img/btn/status-not-active.svg');
+}
+
+.btn-status-active {
+  background-image: url('../img/btn/status-active.svg');
+}
+
+.btn-status-ok {
+  background-image: url('../img/btn/status-ok.svg');
+}
+
+.btn-pause {
+  background-image: url('../img/btn/pause.svg');
+}
+
+.btn-more {
+  background-image: url('../img/btn/more.svg');
+}
+
+.btn-cancel {
+  background-image: url('../img/btn/cancel.svg');
+}
+
+.btn-ok {
+  background-image: url('../img/btn/ok.svg');
+}
+
+.fluid-balance {
+  padding-left: 27px !important;
+  background: url('../img/balance.svg') no-repeat;
+  background-size: contain;
+  font-family: "URWGothicL-Book";
+  font-size: 18px;
+  color: #4d4d4d;
+}
+
+.fluid-balance-critical {
+  padding-left: 27px !important;
+  background: url('../img/balance-critical-level.svg') no-repeat;
+  background-size: contain;
+  font-family: "URWGothicL-Book";
+  font-size: 18px;
+  color: #4d4d4d;
+}
+
+.btn-show-more {
+    background-image: url('../img/btn/dots.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 3em;
+    width: 3em;
+}
+
+.btn-show-more:hover,
+.btn-show-more:focus,
+.btn-show-more:active {
+  background-image: url('../img/btn/dots-hover.svg');
+}
+.dispense-ctr-cell {
+    width: 30%;
+}
+
+.actiot-cell {
+  text-align: center;
+}
+
+.desription-cell {
+  text-align: center;
+}
+
+.modal-header,
+.modal-footer {
+ border: 0;
+}
+
+.modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+  text-align: center;
+}
+
+.text-light {
+  font-weight: lighter;
+  text-align: center;
+}
+
+.modal-body {
+  background: url('../img/tasks.svg') no-repeat 7% 27%;
+}
+
+.modal-body-with-keypad {
+  background: url('../img/tasks.svg') no-repeat 7% 5%;
+}
+
+.other-modal-body {
+  background: url('../img/spid.svg') no-repeat 7% 2%;
+}
+
+.bg-barcode {
+  height: 175px;
+  background: url('../img/bg-barcode.svg') no-repeat 50% 100%;
+  background-size: 50%;
+}
+
+.num-pistols,
+.num-pistols-busy,
+.num-area {
+  margin: 0;
+  padding: 0;
+}
+
+.num-pistols li {
+  background: url('../img/bg-oil.svg') no-repeat 100% 100%;
+  background-size: 94%;
+  margin:0 5px 0 0;
+  padding: 0 4px 4px 4px;
+  text-align: center;
+}
+
+.num-pistols-busy li {
+  background: url('../img/bg-oil-busy.svg') no-repeat 100% 100%;
+  background-size: 94%;
+  margin:0 5px 0 0;
+  padding: 0 4px 4px 4px;
+  text-align: center;
+}
+
+.num-area li {
+  width: 57px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('../img/area.svg');
+  text-align: center;
+}
+
+.kalibr-factor {
+  width: 25%;
+  padding: 0 25px;
+}
+
+.delta {
+  width: 15%;
+}
+
+.table-arrow {
+  margin-top: 18px;
+  background-image: url('../img/caret.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  display:block;
+}
+
+.table-arrow.up {
+  transform: rotate(180deg);
+}
+
+/*table.scroll tbody,
+table.scroll thead { display: block; }
+
+
+
+
+*/

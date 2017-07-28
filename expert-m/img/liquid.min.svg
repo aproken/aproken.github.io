@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 204.88773 292.91286" width="218.547" height="312.44">
+    <defs>
+        <linearGradient y2="493.781" x2="1026.994" y1="448.447" x1="1024.375" gradientTransform="matrix(.17981 0 0 .40856 129.407 817.829)" gradientUnits="userSpaceOnUse" id="c" xlink:href="#a"/>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#ff2a2a"/>
+            <stop offset="1" stop-color="#a40648"/>
+        </linearGradient>
+        <filter height="1.17" y="-.085" width="1.233" x="-.117" id="b" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="1.818"/>
+        </filter>
+    </defs>
+    <text y="26.277" x="2.376" style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:start" font-weight="400" font-size="35.558" font-family="URW Gothic L" letter-spacing="0" word-spacing="0" fill="#333">
+        <tspan y="26.277" x="2.376" style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:start">5.</tspan>
+    </text>
+    <g transform="matrix(.9263 0 0 .9263 -350.99 -652.856)" fill="#ff2a2a" fill-rule="evenodd">
+        <path d="M389.418 824.815a2.311 2.311 0 0 0-2.317 2.317 2.312 2.312 0 0 0 2.317 2.316h4.06a1.75 1.75 0 0 0-.05.41v3.689h-11.005c-.5 0-.99.04-1.47.114v5.856h12.531a3.742 3.742 0 0 0 2.706 1.158 3.742 3.742 0 0 0 2.7-1.158h2.556a3.378 3.378 0 0 1 3.386 3.385h7.303a9.466 9.466 0 0 0-9.486-9.355h-3.252v-3.688a1.75 1.75 0 0 0-.05-.41h4.327a2.312 2.312 0 0 0 2.316-2.317 2.311 2.311 0 0 0-2.316-2.317h-14.256z"/>
+        <circle cx="408.629" cy="849.993" r="3.619"/>
+        <circle r="4.572" cy="861.382" cx="408.629"/>
+    </g>
+    <g transform="translate(-293.18 -727.167)">
+        <g transform="translate(-41.033 455.67) scale(.8517)" fill-rule="evenodd">
+            <g transform="translate(-46.467 474.394)">
+                <g transform="matrix(3.98415 0 0 3.98415 98.167 -1230.596)" opacity=".636" fill="#4d4d4d" filter="url(#b)">
+                    <ellipse cx="115.481" cy="303.501" rx="18.653" ry="6.62"/>
+                    <path d="M97.708 303.399h35.622v36.769H97.708z"/>
+                    <ellipse ry="6.62" rx="18.653" cy="341.528" cx="115.36"/>
+                    <ellipse ry="4.736" rx="16.427" cy="303.552" cx="115.421"/>
+                    <path d="M132.993 340.678a17.812 4.808 0 0 1-17.755 4.507A17.812 4.808 0 0 1 97.7 341.21a17.812 6.207 0 0 0 17.659 5.457 17.812 6.207 0 0 0 17.79-5.99h-.157z"/>
+                    <ellipse cx="115.36" cy="322.753" rx="18.653" ry="6.62"/>
+                    <path d="M132.993 321.903a17.812 4.808 0 0 1-17.755 4.507 17.812 4.808 0 0 1-17.537-3.975 17.812 6.207 0 0 0 17.659 5.457 17.812 6.207 0 0 0 17.79-5.99h-.157z"/>
+                    <ellipse cx="106.395" cy="303.093" rx="2.708" ry="1.222"/>
+                </g>
+                <ellipse cx="556.884" cy="-28.968" rx="74.317" ry="26.377" fill="#4d4d4d"/>
+                <path fill="#4d4d4d" d="M486.074-29.373h141.922V117.12H486.074z"/>
+                <ellipse ry="26.377" rx="74.317" cy="122.538" cx="556.405" fill="#4d4d4d"/>
+                <ellipse ry="18.87" rx="65.447" cy="-28.765" cx="556.645" fill="#fff"/>
+                <path d="M626.657 119.15a70.965 19.158 0 0 1-70.741 17.958 70.965 19.158 0 0 1-69.87-15.836 70.965 24.73 0 0 0 70.357 21.742 70.965 24.73 0 0 0 70.88-23.863h-.626z" fill="#fff"/>
+                <ellipse cx="556.405" cy="47.736" rx="74.317" ry="26.377" fill="#4d4d4d"/>
+                <path d="M626.657 44.348a70.965 19.158 0 0 1-70.741 17.957 70.965 19.158 0 0 1-69.87-15.836 70.965 24.73 0 0 0 70.357 21.743 70.965 24.73 0 0 0 70.88-23.864h-.626z" fill="#fff"/>
+                <ellipse cx="520.685" cy="-30.591" rx="10.788" ry="4.87" fill="#4d4d4d"/>
+            </g>
+            <g transform="matrix(3.98415 0 0 3.98415 51.7 -756.201)" opacity=".636" fill="#4d4d4d" filter="url(#b)">
+                <ellipse cx="115.481" cy="303.501" rx="18.653" ry="6.62"/>
+                <path d="M97.708 303.399h35.622v36.769H97.708z"/>
+                <ellipse ry="6.62" rx="18.653" cy="341.528" cx="115.36"/>
+                <ellipse ry="4.736" rx="16.427" cy="303.552" cx="115.421"/>
+                <path d="M132.993 340.678a17.812 4.808 0 0 1-17.755 4.507A17.812 4.808 0 0 1 97.7 341.21a17.812 6.207 0 0 0 17.659 5.457 17.812 6.207 0 0 0 17.79-5.99h-.157z"/>
+                <ellipse cx="115.36" cy="322.753" rx="18.653" ry="6.62"/>
+                <path d="M132.993 321.903a17.812 4.808 0 0 1-17.755 4.507 17.812 4.808 0 0 1-17.537-3.975 17.812 6.207 0 0 0 17.659 5.457 17.812 6.207 0 0 0 17.79-5.99h-.157z"/>
+                <ellipse cx="106.395" cy="303.093" rx="2.708" ry="1.222"/>
+            </g>
+            <ellipse cx="510.417" cy="445.427" rx="74.317" ry="26.377" fill="#4d4d4d"/>
+            <path fill="#4d4d4d" d="M439.607 445.021h141.922v146.493H439.607z"/>
+            <ellipse ry="26.377" rx="74.317" cy="596.933" cx="509.938" fill="#4d4d4d"/>
+            <ellipse ry="18.87" rx="65.447" cy="445.63" cx="510.178" fill="#fff"/>
+            <ellipse cx="509.938" cy="522.13" rx="74.317" ry="26.377" fill="#4d4d4d"/>
+            <ellipse cx="474.218" cy="443.804" rx="10.788" ry="4.87" fill="#4d4d4d"/>
+        </g>
+        <path d="M393 942.438c-26.45 0-47.89 5.913-47.885 13.206.01.185.034.37.072.553h-.2v4.946h.426c2.48 6.735 23.033 11.862 47.587 11.87 24.572 0 45.156-5.13 47.638-11.87h.817v-4.946h-.673c.048-.184.082-.368.102-.553.006-7.293-21.435-13.206-47.885-13.206z" fill="#ff2a2a" fill-rule="evenodd"/>
+        <circle r="38.027" cy="901.155" cx="393.221" fill="#fff"/>
+        <g font-weight="400" font-family="URW Gothic L" letter-spacing="0" word-spacing="0">
+            <text y="551.627" x="394.145" style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:center" font-size="15" text-anchor="middle" fill="#4d4d4d" transform="matrix(.93948 0 0 .93948 22.701 384.676)">
+                <tspan y="570.377" x="394.145">суток</tspan>
+            </text>
+            <text style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:start" x="373.095" y="555.208" font-size="38.516" fill="#333" transform="matrix(.93948 0 0 .93948 22.701 384.676)">
+                <tspan x="373.095" y="555.208">03</tspan>
+            </text>
+        </g>
+    </g>
+    <text y="26.102" x="43.616" style="line-height:125%;-inkscape-font-specification:'Open Sans, Light';text-align:start" font-weight="300" font-size="35" font-family="Open Sans" letter-spacing="0" word-spacing="0">
+        <tspan y="26.102" x="43.616">10W10</tspan>
+    </text>
+    <text style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:center" x="101.808" y="54.07" font-weight="400" font-size="15" font-family="URW Gothic L" letter-spacing="0" word-spacing="0" text-anchor="middle" fill="#4d4d4d">
+        <tspan style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:center" x="101.808" y="54.07">Антифриз</tspan><tspan style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:center" x="101.808" y="72.82">Formula Maslo Gutra G</tspan>
+    </text>
+    <text y="286.496" x="58.748" style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:start" font-weight="400" font-size="15" font-family="URW Gothic L" letter-spacing="0" word-spacing="0" fill="#4d4d4d"/>
+    <g transform="matrix(.18462 0 0 .18462 25.813 189.491)" fill-rule="evenodd">
+        <g transform="matrix(1.26037 0 0 1.26037 -1.063 93.605)" opacity=".636" fill="#4d4d4d" filter="url(#b)">
+            <ellipse ry="6.62" rx="18.653" cy="303.501" cx="115.481"/>
+            <path d="M97.708 303.399h35.622v36.769H97.708z"/>
+            <ellipse cx="115.36" cy="341.528" rx="18.653" ry="6.62"/>
+            <ellipse cx="115.421" cy="303.552" rx="16.427" ry="4.736"/>
+            <path d="M132.993 340.678a17.812 4.808 0 0 1-17.755 4.507A17.812 4.808 0 0 1 97.7 341.21a17.812 6.207 0 0 0 17.659 5.457 17.812 6.207 0 0 0 17.79-5.99h-.157z"/>
+            <ellipse ry="6.62" rx="18.653" cy="322.753" cx="115.36"/>
+            <path d="M132.993 321.903a17.812 4.808 0 0 1-17.755 4.507 17.812 4.808 0 0 1-17.537-3.975 17.812 6.207 0 0 0 17.659 5.457 17.812 6.207 0 0 0 17.79-5.99h-.157z"/>
+            <ellipse ry="1.222" rx="2.708" cy="303.093" cx="106.395"/>
+        </g>
+        <ellipse ry="8.344" rx="23.51" cy="473.737" cx="144.051" fill="#4d4d4d"/>
+        <path fill="#4d4d4d" d="M121.65 473.608h44.897v46.343H121.65z"/>
+        <ellipse cx="143.899" cy="521.665" rx="23.51" ry="8.344" fill="#4d4d4d"/>
+        <ellipse ry="8.344" rx="23.51" cy="498.002" cx="143.899" fill="#4d4d4d"/>
+        <path d="M143.896 485.294a19.367 5.34 0 0 0-19.367 5.341 19.367 5.34 0 0 0 .03.224h-.081v30.835h.172a19.367 5.34 0 0 0 19.246 4.8 19.367 5.34 0 0 0 19.267-4.8h.33v-30.835h-.272a19.367 5.34 0 0 0 .042-.224 19.367 5.34 0 0 0-19.367-5.341z" fill="#0496f9"/>
+    </g>
+    <g transform="matrix(.44676 0 0 .44676 -114.08 -22.423)">
+        <rect width="40.947" height="17.491" x="471.387" y="667.842" ry="6.439" fill="#4d4d4d"/>
+        <circle cx="477.373" cy="693.171" r="3.219" fill="#4d4d4d"/>
+        <circle r="3.219" cy="693.171" cx="481.918" fill="#4d4d4d"/>
+        <circle cx="501.234" cy="693.171" r="3.219" fill="#4d4d4d"/>
+        <circle r="3.219" cy="693.171" cx="505.778" fill="#4d4d4d"/>
+        <rect width="39.552" height="4.599" x="472.287" y="686.949" ry="0" fill="#4d4d4d"/>
+        <rect width="2.759" height="10.118" x="494.173" y="659.138" ry="0" fill="#4d4d4d"/>
+        <rect ry="0" y="659.138" x="502.126" height="10.118" width="2.759" fill="#4d4d4d"/>
+        <rect width="2.759" height="6.439" x="661.681" y="-502.613" ry="0" transform="rotate(90)" fill="#4d4d4d"/>
+        <path d="M473.444 677.735a5.777 5.777 0 0 0 5.784 5.588h25.264a5.777 5.777 0 0 0 5.784-5.588h-36.832z" fill="#0496f9"/>
+    </g>
+    <g transform="matrix(.3032 0 0 .3032 213.501 114.026)">
+        <g transform="matrix(1.8555 0 0 1.8555 -1062.1 -692.556)" fill="#4d4d4d">
+            <path d="M508.498 672.663a9.274 9.274 0 0 0-9.273 9.274 9.274 9.274 0 0 0 9.273 9.273 9.274 9.274 0 0 0 9.273-9.273 9.274 9.274 0 0 0-9.273-9.274zm0 1.854a7.419 7.419 0 0 1 7.42 7.42 7.419 7.419 0 0 1-7.42 7.418 7.419 7.419 0 0 1-7.418-7.418 7.419 7.419 0 0 1 7.418-7.42z"/>
+            <circle r="2.061" cy="681.937" cx="508.498"/>
+            <rect ry=".729" rx="1.275" y="676.585" x="507.223" height="5.829" width="2.55"/>
+            <rect transform="matrix(0 -1 -1 0 0 0)" width="1.821" height="8.379" x="-682.847" y="-515.416" rx=".911" ry="1.047"/>
+        </g>
+        <g fill-rule="evenodd">
+            <path d="M-151.39 516.786s-3.955 8.016-5.948 12.014c-1.83 3.786-4.448 8.537-5.814 11.97a12.516 12.516 0 0 0-.604 3.824c0 6.911 5.601 12.514 12.513 12.516 6.912 0 12.516-5.604 12.515-12.516-.175-1.938-.519-4.001-1.345-5.64-.018-.028-.024-.055-.04-.083-.914-1.772-3.49-6.755-5.22-10.143-2.03-3.973-6.056-11.942-6.056-11.942z" fill="#0496f9"/>
+            <path d="M-151.334 524.15l.03 30.582s13.865-2.603 8.066-14.73c-5.799-12.125-8.095-15.852-8.095-15.852z" fill="#fff"/>
+        </g>
+        <rect width="1.855" height="37.853" x="295.797" y="473.189" rx=".812" ry="1.352" transform="rotate(45)" fill="#4d4d4d"/>
+    </g>
+    <g transform="translate(-293.18 -727.167)">
+        <rect ry="0" y="1000.37" x="293.306" height="17.226" width="40.188" fill="url(#c)" stroke="#d40000" stroke-width=".253"/>
+        <text style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:start" x="298.275" y="1014.108" font-weight="400" font-size="14.784" font-family="URW Gothic L" letter-spacing="0" word-spacing="0" fill="#fff">
+            <tspan x="298.275" y="1014.108">0120</tspan>
+        </text>
+    </g>
+    <text y="286.008" x="58.741" style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:start" font-weight="400" font-size="15" font-family="URW Gothic L" letter-spacing="0" word-spacing="0" fill="#4d4d4d">
+        <tspan y="286.008" x="58.741">017 /</tspan>
+    </text>
+    <text y="286.525" x="120.123" style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:start" font-weight="400" font-size="15" font-family="URW Gothic L" letter-spacing="0" word-spacing="0" fill="#4d4d4d">
+        <tspan y="286.525" x="120.123">0103 /</tspan>
+    </text>
+    <text y="286.87" x="188.692" style="line-height:125%;-inkscape-font-specification:'URW Gothic L, Normal';text-align:start" font-weight="400" font-size="15" font-family="URW Gothic L" letter-spacing="0" word-spacing="0" fill="#4d4d4d">
+        <tspan y="286.87" x="188.692">40</tspan>
+    </text>
+</svg>

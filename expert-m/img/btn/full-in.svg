@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="8.4300776mm"
+   height="10.754572mm"
+   viewBox="0 0 29.870354 38.106751"
+   id="svg4635"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="fill-in.svg">
+  <defs
+     id="defs4637" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="39.935177"
+     inkscape:cy="-343.80376"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4640">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-285.06482,-150.45169)">
+    <g
+       id="g5166-3"
+       transform="matrix(0.92629198,0,0,0.92629198,-67.809099,-613.56795)"
+       style="fill:#0496f9;fill-opacity:1"
+       inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/20.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/2.png"
+         style="opacity:1;fill:#0496f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 389.4177,824.81513 c -1.28341,0 -2.3165,1.03307 -2.3165,2.31649 0,1.28341 1.03309,2.31673 2.3165,2.31673 l 4.05971,0 c -0.0317,0.13173 -0.05,0.26879 -0.05,0.41053 l 0,3.68793 -11.00408,0 c -0.50054,0 -0.99093,0.0405 -1.4701,0.11455 l 0,5.8553 12.53118,0 a 3.7422518,3.7422518 0 0 0 2.70509,1.15848 3.7422518,3.7422518 0 0 0 2.70095,-1.15848 l 2.55599,0 c 1.87576,0 3.38581,1.51005 3.38581,3.38581 l 7.30299,0 c -0.0713,-5.19472 -4.27369,-9.35562 -9.48598,-9.35562 l -3.25229,0 0,-3.68792 c 0,-0.14176 -0.0183,-0.27875 -0.05,-0.41054 l 4.32697,0 c 1.28343,0 2.31652,-1.03332 2.31652,-2.31673 0,-1.28342 -1.03309,-2.31649 -2.31652,-2.31649 l -14.25636,0 z"
+         id="path4954-6"
+         inkscape:connector-curvature="0" />
+      <circle
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/2.png"
+         r="3.6188016"
+         cy="849.9928"
+         cx="408.62869"
+         id="circle4990-7"
+         style="opacity:1;fill:#0496f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/lonmadi/Рабочий стол/vida4a/vidacha_operator/2.png"
+         style="opacity:1;fill:#0496f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle5050-5"
+         cx="408.62869"
+         cy="861.38239"
+         r="4.5717721" />
+    </g>
+  </g>
+</svg>

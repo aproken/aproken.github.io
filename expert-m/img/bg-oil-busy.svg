@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg5732"
+   viewBox="0 0 43.526611 53.81105"
+   height="15.186674mm"
+   width="12.284177mm">
+  <defs
+     id="defs5734" />
+  <metadata
+     id="metadata5737">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-92.52241,-231.17099)"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.31239939px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="98.048828"
+       y="278.02267"
+       id="text6227"><tspan
+         id="tspan6229"
+         x="98.048828"
+         y="278.02267">Пистолет</tspan></text>
+    <path
+       style="fill:#d01757;fill-opacity:1;stroke:none"
+       d="m 114.5514,231.30747 c -11.98273,0 -21.67601,3.11912 -21.67601,6.95606 0,0.73899 0.35086,1.45813 1.01833,2.12619 l 0,15.82833 c -0.75476,0.70599 -1.1638,1.46952 -1.1638,2.25744 0,0.78657 0.4115,1.5262 1.1638,2.23118 l 0,15.19834 c -0.75476,0.70601 -1.1638,1.46952 -1.1638,2.25744 0,3.83694 9.69328,6.95607 21.676,6.95607 11.98276,0 21.70513,-3.11913 21.70513,-6.95607 0,-0.6374 -0.28356,-1.25106 -0.78558,-1.83745 l 0,-16.01206 c 0.50842,-0.58984 0.78558,-1.19585 0.78558,-1.83745 0,-0.6416 -0.27716,-1.27388 -0.78558,-1.86372 l 0,-16.35329 c 0.58923,-0.63124 0.93106,-1.30235 0.93106,-1.99495 0,-3.83694 -9.72238,-6.95606 -21.70513,-6.95606 z"
+       id="path6080" />
+    <text
+       id="text6088"
+       y="276.66043"
+       x="98.256332"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.31239939px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="276.66043"
+         x="98.256332"
+         id="tspan6090">Пистолет</tspan></text>
+  </g>
+</svg>

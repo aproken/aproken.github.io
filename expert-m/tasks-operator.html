@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Система маслораздачи Expert-M | Задания на выдачу</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bochka.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/input_ctrl.css"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker3.css" />
+
+</head>
+
+<body>
+  <div class="top">
+   <div class="container">
+     <div class="row">
+
+     <div class="col-lg-5 col-sm-5 col-md-5 col-xs-2" style="padding-left: 0px;">
+     <!-- Brand -->
+    <div class="brand">
+      <a href="index.html">
+        <img class="logo" src="img/logo.svg" alt="Logo">
+           <div class="logo-text">
+             <ul>
+               <li><h2 class="hidden-sm hidden-md hidden-xs">Система<br>маслораздачи</h2></li>
+               <li class="hidden-md hidden-xs hidden-sm"><h1>Эксперт-М</h1></li>
+               <li><img class="img-responsive brand-company-min hidden-xs" src="img/logo-company.svg" alt="logo"/></li>
+               </ul>
+           </div>
+      </a>
+    </div><!-- ENd Brand -->
+     </div><!-- ENd col-lg-5 -->
+
+     <div class="col-lg-2 col-sm-2 col-md-2">
+     <div class="date-time hidden-xs" id="doc_time">Дата и время</div></div>
+
+     <div class="col-lg-5">
+     <!-- Header Inner Right -->
+    <div class="header-inner-right">
+      <ul class="icons-list">
+         <li class="icons">
+          <a class="btn btn-img btn-user" role="button" data-toggle="collapse" href="#collapseUser" aria-expanded="false" aria-controls="collapseUser" style="margin-right: -15px;"></a>
+         </li>
+         <li class="icons hidden-lg hidden-md hidden-sm"></li>
+         <li class="icons"><span class="badge">0</span></li>
+         <li class="icons"><a href="#" class="fa fa-question-circle-o fa-2x"></a></li>
+         <li class="icons"><a href="#" class="fa fa-cog fa-2x"></a></li>
+         <li class="icons" style="padding-right: 0px;">
+           <a href="#" class="fa fa-power-off fa-2x"></a>
+         </li>
+      </ul>
+      <div class="collapse" id="collapseUser">
+        <p class="user-top">Оператор, <b>Nikolaev.I</b></p>
+      </div>
+    </div><!-- End Header Inner Right -->
+     </div>
+     </div><!-- End row -->
+  </div><!-- End Container -->
+</div><!-- End Top -->
+
+<div id="midle-container">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+        <ul class="topic-page">
+          <li><img style="float: left;" src="img/tasks.svg" alt="login"/></li>
+          <li><h3 class="main-h3">задания</h3></li>
+        </ul>
+      </div><!-- end col-lg-4 -->
+
+      <div class="col-lg-5 col-md-4 col-sm-6 col-xs-6">
+        <div class="zone">
+          <p class="text-explanat hidden-md hidden-sm hidden-xs">Зоны выдачи:</p>
+            <div class="btn-group">
+              <button type="button" class="btn btn-my-selection">Зона №1</button>
+              <button type="button" class="btn btn-my-selection">Зона №2</button>
+              <button type="button" class="btn btn-all-selection">Все зоны</button>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+        <div class="btn-toolbar pull-right">
+          <div class="btn-group">
+            <button type="button" class="btn btn-img btn-search"></button>
+            <a href="#myModal4" class="btn btn-img btn-barcode" data-toggle="modal"></a>
+            <button type="button" class="btn btn-img btn-add-task" data-toggle="modal"></button>
+            <button type="button" class="btn btn-img btn-top btn-all-stop"></button>
+          </div>
+        </div>
+      </div>
+    </div><!-- row -->
+
+    <div class="row result-search">
+      <ul>
+        <li>Жидкость: 16W40</li>
+        <li style="background-color: transparent;"><a href="" class="fa fa-times-circle fa-lg"></a></li>
+        <li>Дата: 10.07.16 - 11.07.16</li>
+        <li style="background-color: transparent;"><a href="" class="fa fa-times-circle fa-lg"></a></li>
+      </ul>
+    </div>
+
+
+    <div class="separator" style="margin-top: 20px"></div>
+
+    <div class="container">
+      <div class="table-wrapper">
+      <a href="#" class="col-select"><img src="img/btn/add-col.svg" alt=""></a>
+      <table class="scroll">
+          <thead>
+              <tr>
+                <th>№<br>задания</th>
+                <th>Дата</th>
+                <th>Жидкость</th>
+                <th>Статус</th>
+                <th>Выдано, л / Задано, л</th>
+                <th>Действие</th>
+                <th>Ответственный</th>
+                <th>Примечания</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr >
+                <td class="point-cell">1</td>
+                <td class="date-cell">10.07.16</td>
+                <td class="fluid-type-cell">15W40</td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-not-active"></a></td>
+                <td class="dispense-ctr-cell col-sm-3">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar__gray" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                  </div>
+                  <p class="progress-value">158,0 / 158,0</p>
+                </td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-cancel"></a></td>
+                <td class="date-cell">Петров О.</td>
+                <td class="desription-cell">
+                  <a href="#" class="btn btn-show-more "></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="point-cell">2</td>
+                <td class="date-cell">10.07.16</td>
+                <td class="fluid-type-cell">15W40</td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+                <td class="dispense-ctr-cell col-sm-3">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                  </div>
+                  <p class="progress-value">158,0 / 158,0</p>
+                </td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+                <td class="date-cell">Николаев И.</td>
+                <td class="desription-cell">
+                  <a href="#" class="btn btn-show-more"></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="point-cell">3</td>
+                <td class="date-cell">10.07.16</td>
+                <td class="fluid-type-cell">15W40</td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-ok"></a></td>
+                <td class="dispense-ctr-cell col-sm-3">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar__blue" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                  </div>
+                  <p class="progress-value">158,0 / 158,0</p>
+                </td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-ok"></a></td>
+                <td class="date-cell">Николаев И.</td>
+                <td class="desription-cell">
+                  <a href="#" class="btn btn-show-more "></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="point-cell">4</td>
+                <td class="date-cell">10.07.16</td>
+                <td class="fluid-type-cell">15W40</td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-not-active"></a></td>
+                <td class="dispense-ctr-cell col-sm-3">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar__gray" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                  </div>
+                  <p class="progress-value">158,0 / 158,0</p>
+                </td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-cancel"></a></td>
+                <td class="date-cell">Петров О.</td>
+                <td class="desription-cell">
+                    <a href="#" class="btn btn-show-more "></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="point-cell">5</td>
+                <td class="date-cell">10.07.16</td>
+                <td class="fluid-type-cell">15W40</td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+                <td class="dispense-ctr-cell col-sm-3">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+                  </div>
+                  <p class="progress-value">000,0 / 158,0</p>
+                </td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+                <td class="date-cell">Николаев И.</td>
+                <td class="desription-cell">
+                    <a href="#" class="btn btn-show-more "></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="point-cell">6</td>
+                <td class="date-cell">10.07.16</td>
+                <td class="fluid-type-cell">15W40</td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+                <td class="dispense-ctr-cell col-sm-3">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+                  </div>
+                  <p class="progress-value">000,0 / 158,0</p>
+                </td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+                <td class="date-cell">Николаев И.</td>
+                <td class="desription-cell">
+                    <a href="#" class="btn btn-show-more "></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="point-cell">7</td>
+                <td class="date-cell">10.07.16</td>
+                <td class="fluid-type-cell">15W40</td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+                <td class="dispense-ctr-cell col-sm-3">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                  </div>
+                  <p class="progress-value">158,0 / 158,0</p>
+                </td>
+                <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+                <td class="date-cell">Николаев И.</td>
+                <td class="desription-cell">
+                    <a href="#" class="btn btn-show-more "></a>
+                </td>
+              </tr>
+              <tr>
+              <td class="point-cell">8</td>
+              <td class="date-cell">10.07.16</td>
+              <td class="fluid-type-cell">15W40</td>
+              <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+              <td class="dispense-ctr-cell col-sm-3">
+                <div class="progress">
+                  <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+                <p class="progress-value">158,0 / 158,0</p>
+              </td>
+              <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+              <td class="date-cell">Николаев И.</td>
+              <td class="desription-cell">
+                <a href="#" class="btn btn-show-more "></a>
+              </td>
+            </tr>
+            <tr>
+            <td class="point-cell">9</td>
+            <td class="date-cell">10.07.16</td>
+            <td class="fluid-type-cell">15W40</td>
+            <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+            <td class="dispense-ctr-cell col-sm-3">
+              <div class="progress">
+                <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+              </div>
+              <p class="progress-value">158,0 / 158,0</p>
+            </td>
+            <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+            <td class="date-cell">Николаев И.</td>
+            <td class="desription-cell">
+              <a href="#" class="btn btn-show-more"></a>
+            </td>
+          </tr>
+          <tr>
+          <td class="point-cell">10</td>
+          <td class="date-cell">10.07.16</td>
+          <td class="fluid-type-cell">15W40</td>
+          <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+          <td class="dispense-ctr-cell col-sm-3">
+            <div class="progress">
+              <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+            </div>
+            <p class="progress-value">158,0 / 158,0</p>
+          </td>
+          <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+          <td class="date-cell">Николаев И.</td>
+          <td class="desription-cell">
+            <a href="#" class="btn btn-show-more "></a>
+          </td>
+        </tr>
+        <tr>
+        <td class="point-cell">11</td>
+        <td class="date-cell">10.07.16</td>
+        <td class="fluid-type-cell">15W40</td>
+        <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+        <td class="dispense-ctr-cell col-sm-3">
+          <div class="progress">
+            <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+          </div>
+          <p class="progress-value">158,0 / 158,0</p>
+        </td>
+        <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+        <td class="date-cell">Николаев И.</td>
+        <td class="desription-cell">
+          <a href="#" class="btn btn-show-more "></a>
+        </td>
+      </tr>
+      <tr>
+      <td class="point-cell">12</td>
+      <td class="date-cell">10.07.16</td>
+      <td class="fluid-type-cell">15W40</td>
+      <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+      <td class="dispense-ctr-cell col-sm-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+        </div>
+        <p class="progress-value">158,0 / 158,0</p>
+      </td>
+      <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+      <td class="date-cell">Николаев И.</td>
+      <td class="desription-cell">
+        <a href="#" class="btn btn-show-more "></a>
+      </td>
+    </tr>
+    <tr>
+    <td class="point-cell">13</td>
+    <td class="date-cell">10.07.16</td>
+    <td class="fluid-type-cell">15W40</td>
+    <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+    <td class="dispense-ctr-cell col-sm-3">
+      <div class="progress">
+        <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+      </div>
+      <p class="progress-value">158,0 / 158,0</p>
+    </td>
+    <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+    <td class="date-cell">Николаев И.</td>
+    <td class="desription-cell">
+        <a href="#" class="btn btn-show-more "></a>
+    </td>
+    </tr>
+    <tr>
+    <td class="point-cell">14</td>
+    <td class="date-cell">10.07.16</td>
+    <td class="fluid-type-cell">15W40</td>
+    <td class="actiot-cell"><a href="#" class="btn btn-img btn-st btn-status-active"></a></td>
+    <td class="dispense-ctr-cell col-sm-3">
+      <div class="progress">
+        <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+      </div>
+      <p class="progress-value">158,0 / 158,0</p>
+    </td>
+    <td class="actiot-cell"><a href="#" class="btn btn-img btn-pause"></a></td>
+    <td class="date-cell">Николаев И.</td>
+    <td class="desription-cell">
+      <a href="#" class="btn btn-show-more "></a>
+    </td>
+    </tr>
+          </tbody>
+      </table>
+
+    <!-- Модальные окна -->
+
+    <!-- Модальное окно вызова просмотра прогресс бара-->
+    <div id="myModal0" class="modal fade">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- Заголовок модального окна -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-4">
+                  <p style="padding-top: 24px;"><span style="font-size: 38px;">8 </span>ПИСТОЛЕТ</p>
+                </div>
+                <div class="col-lg-4">
+                  <ul class="big-progress-bar">
+                    <li style="padding-top: 49px;">ЗОНА</li>
+                    <li class="area-cell" style="font-size: 31px; width: 21%">2</li>
+                  </ul>
+               </div>
+            <div class="col-lg-4">
+                <p>ЖИДКОСТЬ <span style="font-size: 38px;">20W10</span></p>
+           </div>
+          </div>
+         </div>
+        </div>
+          <!-- Основное содержимое модального окна -->
+          <div class="modal-body" style="background: transparent;">
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar progress-bar__green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+            </div>
+            <p class="progress-value" style="font-size: 48px;">158,0 / 158,0</p>
+          </div>
+          <!-- Футер модального окна -->
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div><!--/ Модальное окно -->
+
+    <div id="myModal4" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">Выдача по заданиям по штрих–коду</h4>
+          </div>
+          <div class="modal-body bg-barcode">
+            <p class="text-light">Поднесите бланк задания к считывателю штрих-кода</p>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div><!--/ Модальное окно -->
+
+      </div>
+    </div>
+
+
+
+  </div><!-- container -->
+ </div><!-- article -->
+
+<!-- This Footer -->
+  <div class="footer">
+  	<div class="container">
+  		<p class="footer-text hidden-xs hidden-sm" style="float: left;">Разработано и произведено&emsp;</p>
+      <p class="footer-text"  style="float: left;"><a href="http://npoamotiv.ru/"><img class="logo-e img-responsive" src="img/logo_e.svg" alt="logo"/></a>&emsp; <i class="fa fa-phone fa-lg"></i>&nbsp; (812) 309-05-42, (8112) 23-15-15&emsp;
+        <a class="contact-us" href="">Напишите нам</a>
+      </p>
+
+  		<p class="footer-text hidden-xs hidden-sm" style="float: right;">© Copiright. Все права защищены. 2017 г.</p>
+
+  		</div>
+  	</div>
+
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script> <!-- jquery libraries -->
+    <script src="js/bootstrap.min.js"></script> <!-- bootsrap libraries -->
+    <script src="js/main.js"></script> <!-- bootsrap libraries -->
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.ru.min.js"></script>
+
+    <script type="text/javascript">
+      $('#datepicker-from').datepicker();
+      $('#datepicker-from').on('changeDate', function() {
+        $('#datepicker-from-input').val(
+            $('#datepicker-from').datepicker('getFormattedDate')
+        );
+      });
+
+      $('#datepicker-to').datepicker();
+      $('#datepicker-to').on('changeDate', function() {
+        $('#datepicker-to-input').val(
+            $('#datepicker-to').datepicker('getFormattedDate')
+        );
+      });
+
+// переход при 2 клике др. на страницу
+      $table.find("tbody tr").on('dblclick', function(e) {
+        window.location = "#"; // main_settings_edit.svg
+      });
+    </script>
+    <script>
+      function richSelectSetItem(wrapEl, id, value){
+          var source = $(wrapEl).find('.select-' + !value);
+          var dest = $(wrapEl).find('.select-' + value);
+          var el = source.find('option[value="'+id+'"]')
+          var text = el.text();
+          var id = el.val();
+          dest.append('<option value="'+ id +'">'+ text +'</option>');
+          source.find('option[value="'+id+'"]').remove();
+      }
+
+      $('.select-true').dblclick(function(e){
+          var wrapEl = $(this).parents('.rich-select')[0];
+          richSelectSetItem(wrapEl, $(this).val()[0], false);
+      });
+      $('.select-false').dblclick(function(e){
+          console.log(e);
+          var wrapEl = $(this).parents('.rich-select')[0];
+          richSelectSetItem(wrapEl, $(this).val()[0], true);
+      });
+
+      $('.select-to-allow').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+            wrapEl.find('.select-false')
+              .val()
+              .map(function(item){
+                  richSelectSetItem(wrapEl, item, true);
+              })
+      });
+
+      $('.select-to-deany').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-true')
+              .val()
+              .map(function(item){
+                  richSelectSetItem(wrapEl, item, false);
+              })
+      })
+
+      $('.all-to-allow').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-false')
+              .find('option')
+              .map(function(x,i){
+                  console.log(i)
+                  console.log(i.value)
+                  return richSelectSetItem(wrapEl, i.value, true);
+              })
+      })
+
+      $('.all-to-deany').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-true')
+              .find('option')
+              .map(function(x,i){
+                  console.log(i.value)
+                  return richSelectSetItem(wrapEl, i.value, false);
+              })
+      })
+
+
+
+
+      $(function() {
+          var deny_c = parseInt($("#permission-deny option").length)
+          var allow_c = parseInt($("#permission-allow option").length)
+          $("#permission-deny").attr("size", deny_c + allow_c);
+          $("#permission-allow").attr("size", deny_c + allow_c);
+      });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#report tr:odd").addClass("odd");
+            $("#report tr:not(.odd)").hide();
+            $("#report tr:first-child").show();
+
+            $("#report tr.odd").click(function(){
+                $(this).next("tr").toggle();
+                $(this).find(".table-arrow").toggleClass("up");
+            });
+            //$("#report").jExpand();
+        });
+    </script>
+
+<script>
+    // Change the selector if needed
+    var $table = $('table.scroll'),
+      $bodyCells = $table.find('tbody tr:first').children(),
+      colWidth;
+
+    // Adjust the width of thead cells when window resizes
+    $(window).resize(function() {
+      // Get the tbody columns width array
+      colWidth = $bodyCells.map(function() {
+          return $(this).width();
+      }).get();
+
+      // Set the width of thead columns
+      $table.find('thead tr').children().each(function(i, v) {
+          $(v).width(colWidth[i]);
+      });
+    }).resize(); // Trigger resize handler
+
+    // модальное при 2 клике
+
+    $table.find("tbody tr").on('dblclick', function(e) {
+      e.preventDefault();
+      $('#myModal0').modal();
+    });
+
+
+    $('.btn-selection').click(function(event){
+      $('#myModal15').modal({})
+      event.stopPropagation();
+    });
+
+    $('#myModal15 .btn-big-cancel').click(function(event){
+      $('#myModal15').modal('hide');
+      event.stopPropagation();
+    })
+    </script>
+
+
+</body>
+</html>

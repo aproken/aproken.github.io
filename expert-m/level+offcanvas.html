@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Система маслораздачи Expert-M | Уровни жидкостей</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/bochka.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/input_ctrl.css"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker3.css" />
+  
+</head>
+
+<body>
+  <div class="top">
+   <div class="container">
+     <div class="row">
+
+     <div class="col-lg-5 col-sm-5 col-md-5 col-xs-2" style="padding-left: 0px;">
+     <!-- Brand -->
+    <div class="brand">
+      <a href="index.html">
+        <img class="logo" src="img/logo.svg" alt="Logo">
+           <div class="logo-text">
+             <ul>
+               <li><h2 class="hidden-sm hidden-md hidden-xs">Система<br>маслораздачи</h2></li>
+               <li class="hidden-md hidden-xs hidden-sm"><h1>Эксперт-М</h1></li>
+               <li><img class="img-responsive brand-company-min hidden-xs" src="img/logo-company.svg" alt="logo"/></li>
+               </ul>
+           </div>
+      </a>
+    </div><!-- ENd Brand -->
+     </div><!-- ENd col-lg-5 -->
+
+     <div class="col-lg-2 col-sm-2 col-md-2">
+     <div class="date-time hidden-xs" id="doc_time">Дата и время</div></div>
+
+     <div class="col-lg-5">
+     <!-- Header Inner Right -->
+    <div class="header-inner-right">
+      <ul class="icons-list">
+         <li class="icons">
+          <a class="btn btn-img btn-user" role="button" data-toggle="collapse" href="#collapseUser" aria-expanded="false" aria-controls="collapseUser" style="margin-right: -15px;"></a>
+         </li>
+         <li class="icons hidden-lg hidden-md hidden-sm"></li>
+         <li class="icons"><span class="badge">0</span></li>
+         <li class="icons"><a href="#" class="fa fa-question-circle-o fa-2x"></a></li>
+         <li class="icons"><a href="#" class="fa fa-cog fa-2x"></a></li>
+         <li class="icons" style="padding-right: 0px;">
+           <a href="#" class="fa fa-power-off fa-2x"></a>
+         </li>
+      </ul>
+      <div class="collapse" id="collapseUser">
+        <p class="user-top">Оператор, <b>Nikolaev.I</b></p>
+      </div>
+    </div><!-- End Header Inner Right -->
+     </div>
+     </div><!-- End row -->
+  </div><!-- End Container -->
+</div><!-- End Top -->
+
+<div id="midle-container">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs" style="padding-left: 0px;">
+      <button type="button" class="to-page">
+        <h3 class="page-h3">Уровни</h3>
+        <img class="to-page-img" src="img/levels.svg" alt=""/>
+      </button>
+      <button type="button" class="to-page">
+        <h3 class="page-h3">Выдача</h3>
+        <img class="to-page-img" src="img/despensing-img.svg" alt=""/>
+      </button>
+      <button type="button" class="to-page">
+        <h3 class="page-h3">Задания</h3>
+        <img class="to-page-img" src="img/tasks.svg" alt=""/>
+      </button>
+      <button type="button" class="to-page">
+        <h3 class="page-h3">Отчеты</h3>
+        <img class="to-page-img" src="img/icon-otchet.svg" alt=""/>
+      </button>
+    </div>
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+        <ul class="topic-page">
+          <li><img style="float: left;" src="img/levels.svg" alt=""/></li>
+          <li><h3 class="main-h3" style="padding-top: 15px;">УРОВНИ ЖИДКОСТЕЙ</h3></li>
+          <li class="pull-right"><button type="button" class="btn btn-img btn-my-back"></button></li>
+        </ul>
+        <div class=" hidden-lg hidden-md hidden-sm col-xs-12 pull-right">
+          <ul class="topic-page" style="text-align: center;">
+            <li><button type="button" class="btn btn-img btn-despensing"></button></li>
+            <li><button type="button" class="btn btn-img btn-tasks"></button></li>
+            <li><button type="button" class="btn btn-img btn-otchet"></button></li>
+          </ul>
+        </div>
+        <div class="separator hidden-xs" style="margin-top: 20px"></div>
+
+        <div class="container-fluid">
+        <div class="row">
+ 
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+            
+            <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">1.</li>
+              <li class="litle-name-bochka">05W50</li>
+            </ul>
+            <p class="full-name-bochka">Мочевина</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-0">
+              <div class="circle">
+                <div>
+                  <p class="count-day">03</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-0" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-0" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+
+          </a>
+
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">2.</li>
+              <li class="litle-name-bochka">10W10</li>
+            </ul>
+            <p class="full-name-bochka">Антифриз</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-1">
+              <div class="circle">
+                <div>
+                  <p class="count-day">10</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-1" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-1" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">3.</li>
+              <li class="litle-name-bochka">16W40</li>
+            </ul>
+            <p class="full-name-bochka">Моторное масло</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-2">
+              <div class="circle">
+                <div>
+                  <p class="count-day">20</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-2" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-2" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">4.</li>
+              <li class="litle-name-bochka">20W40</li>
+            </ul>
+            <p class="full-name-bochka">Моторное масло</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-3">
+              <div class="circle">
+                <div>
+                  <p class="count-day">22</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-3" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-3" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+            
+            <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">5.</li>
+              <li class="litle-name-bochka">05W50</li>
+            </ul>
+            <p class="full-name-bochka">Мочевина</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-4">
+              <div class="circle">
+                <div>
+                  <p class="count-day">30</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-4" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-4" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">6.</li>
+              <li class="litle-name-bochka">10W10</li>
+            </ul>
+            <p class="full-name-bochka">Антифриз</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-5">
+              <div class="circle">
+                <div>
+                  <p class="count-day">50</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-5" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-5" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">7.</li>
+              <li class="litle-name-bochka">16W40</li>
+            </ul>
+            <p class="full-name-bochka">Моторное масло</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-6">
+              <div class="circle">
+                <div>
+                  <p class="count-day">22</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-6" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-6" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">8.</li>
+              <li class="litle-name-bochka">20W40</li>
+            </ul>
+            <p class="full-name-bochka">Моторное масло</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-7">
+              <div class="circle">
+                <div>
+                  <p class="count-day">25</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-7" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-7" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+          
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+            
+            <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">9.</li>
+              <li class="litle-name-bochka">05W50</li>
+            </ul>
+            <p class="full-name-bochka">Мочевина</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-8">
+              <div class="circle">
+                <div>
+                  <p class="count-day">28</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-8" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-8" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">10.</li>
+              <li class="litle-name-bochka">10W10</li>
+            </ul>
+            <p class="full-name-bochka">Антифриз</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-9">
+              <div class="circle">
+                <div>
+                  <p class="count-day">29</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-9" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-9" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">11.</li>
+              <li class="litle-name-bochka">16W40</li>
+            </ul>
+            <p class="full-name-bochka">Моторное масло</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-9">
+              <div class="circle">
+                <div>
+                  <p class="count-day">30</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-9" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-9" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+          <a class="col-lg-4 col-md-4 col-sm-6 col-xs-6 dots-outline">
+
+          <ul class="topic" style="margin-bottom: 0px;">
+              <li class="num-bochka">12.</li>
+              <li class="litle-name-bochka">20W40</li>
+            </ul>
+            <p class="full-name-bochka">Моторное масло</p>
+            <p class="full-name-bochka">Formula Maslo Gutra</p>
+            
+            <div class="cont value-9">
+              <div class="circle">
+                <div>
+                  <p class="count-day">30</p>
+                  <p>суток</p>
+                </div>
+              </div>   
+            </div>
+            <ul class="list-inline">
+              <li><span class="total-value">1271</span></li>
+              <li class="mini_bo4ka-9" style="padding-left: 18px; padding-right: 0px;">850</li>
+              <li class="container-9" style="padding-left: 25px; padding-right: 0px;">1052</li>
+              <li class="fluid-mean" style="padding-left: 14px;">39</li>
+            </ul>
+          </a>
+          </div><!-- row -->
+
+
+
+
+          </div>
+        </div>
+
+      </div>
+    </div><!-- row -->
+
+    <!-- Здесь панель слева -->
+    <div class="offcanvas offcanvas-left offcanvas-gray col-md-3 col-sm-3 col-xs-12">
+    <div class="items">
+      <h3>6. 88W88</h3>
+      <p  class="product-name">Трансм. масло Formula Maslo Gutra</p>
+      <ul class="detail-desp-fluid-volume">
+        <li class="fluid-all">
+          <p class="fluid-state-label">Всего, л.:
+          <span class="fluid-state-value-small">1271,0</span></p>
+        </li>
+      </ul>
+      <ul class="detail-desp-fluid-volume">
+        <li class="fluid-day">
+          <span class="fluid-state-label">Oстаток в сутках:</span>
+          <span class="fluid-state-value" style="font-size: 25px;">38</span>
+        </li>
+      </ul>
+      <div class="separator" style="margin-top: 20px; margin-bottom: 0px;"></div>
+      <ul class="detail-desp-fluid-volume">
+        <li class="mini_bo4ka-9">
+          <span class="fluid-state-label">В ёмкости, л.:</span>
+        </li>
+        <li>
+          <span class="fluid-state-value" style="font-size: 25px;">0426,0</span>
+        </li>
+        <li>
+          <button type="button" class="btn btn-img btn-full-in pull-right">Пополнить</button>
+        </li>
+      </ul>
+      <div class="separator" style="margin-top: 20px; margin-bottom: 0px;"></div>
+      <ul class="detail-desp-fluid-volume">
+        <li class="container-3">
+          <span class="fluid-state-label">На складе, л.:</span>
+        </li>
+        <li>
+          <span class="fluid-state-value" style="font-size: 25px;">0845,2</span>
+        </li>
+        <li>
+          <button type="button" class="btn btn-img btn-full-in pull-right">Пополнить</button>
+        </li>
+      </ul>
+      <div class="separator" style="margin-top: 20px; margin-bottom: 0px;"></div>
+      <ul class="detail-desp-fluid-volume">
+        <li class="fluid-mean5">
+          <span class="fluid-state-label">Среднесуточный<br> расход, л./сут:</span>
+          <span class="fluid-state-value" style="font-size: 25px;">33</span>
+        </li>
+      </ul>
+    </div>
+  </div><!-- Конец панель слева -->
+  </div>
+  </div>
+</div>
+
+
+    <!-- This Footer -->
+      <div class="footer">
+      	<div class="container">
+      		<p class="footer-text hidden-xs hidden-sm" style="float: left;">Разработано и произведено&emsp;</p>
+          <p class="footer-text"  style="float: left;"><a href="http://npoamotiv.ru/"><img class="logo-e img-responsive" src="img/logo_e.svg" alt="logo"/></a>&emsp; <i class="fa fa-phone fa-lg"></i>&nbsp; (812) 309-05-42, (8112) 23-15-15&emsp;
+            <a class="contact-us" href="">Напишите нам</a>
+          </p>
+
+      		<p class="footer-text hidden-xs hidden-sm" style="float: right;">© Copiright. Все права защищены. 2017 г.</p>
+
+      		</div>
+      	</div>
+
+
+
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script> <!-- jquery libraries -->
+    <script src="js/bootstrap.min.js"></script> <!-- bootsrap libraries -->
+    <script src="js/main.js"></script> <!-- bootsrap libraries -->
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.ru.min.js"></script>
+
+    <script type="text/javascript">
+      $('#datepicker-from').datepicker();
+      $('#datepicker-from').on('changeDate', function() {
+        $('#datepicker-from-input').val(
+            $('#datepicker-from').datepicker('getFormattedDate')
+        );
+      });
+
+      $('#datepicker-to').datepicker();
+      $('#datepicker-to').on('changeDate', function() {
+        $('#datepicker-to-input').val(
+            $('#datepicker-to').datepicker('getFormattedDate')
+        );
+      });
+
+// переход при 2 клике др. на страницу
+      $table.find("tbody tr").on('dblclick', function(e) {
+        window.location = "#"; // main_settings_edit.svg
+      });
+    </script>
+    <script>
+      function richSelectSetItem(wrapEl, id, value){
+          var source = $(wrapEl).find('.select-' + !value);
+          var dest = $(wrapEl).find('.select-' + value);
+          var el = source.find('option[value="'+id+'"]')
+          var text = el.text();
+          var id = el.val();
+          dest.append('<option value="'+ id +'">'+ text +'</option>');
+          source.find('option[value="'+id+'"]').remove();
+      }
+
+      $('.select-true').dblclick(function(e){
+          var wrapEl = $(this).parents('.rich-select')[0];
+          richSelectSetItem(wrapEl, $(this).val()[0], false);
+      });
+      $('.select-false').dblclick(function(e){
+          console.log(e);
+          var wrapEl = $(this).parents('.rich-select')[0];
+          richSelectSetItem(wrapEl, $(this).val()[0], true);
+      });
+
+      $('.select-to-allow').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+            wrapEl.find('.select-false')
+              .val()
+              .map(function(item){
+                  richSelectSetItem(wrapEl, item, true);
+              })
+      });
+
+      $('.select-to-deany').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-true')
+              .val()
+              .map(function(item){
+                  richSelectSetItem(wrapEl, item, false);
+              })
+      })
+
+      $('.all-to-allow').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-false')
+              .find('option')
+              .map(function(x,i){
+                  console.log(i)
+                  console.log(i.value)
+                  return richSelectSetItem(wrapEl, i.value, true);
+              })
+      })
+
+      $('.all-to-deany').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-true')
+              .find('option')
+              .map(function(x,i){
+                  console.log(i.value)
+                  return richSelectSetItem(wrapEl, i.value, false);
+              })
+      })
+
+
+
+
+      $(function() {
+          var deny_c = parseInt($("#permission-deny option").length)
+          var allow_c = parseInt($("#permission-allow option").length)
+          $("#permission-deny").attr("size", deny_c + allow_c);
+          $("#permission-allow").attr("size", deny_c + allow_c);
+      });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#report tr:odd").addClass("odd");
+            $("#report tr:not(.odd)").hide();
+            $("#report tr:first-child").show();
+
+            $("#report tr.odd").click(function(){
+                $(this).next("tr").toggle();
+                $(this).find(".table-arrow").toggleClass("up");
+            });
+            //$("#report").jExpand();
+        });
+    </script>
+<script>
+    // Change the selector if needed
+    var $table = $('table.scroll'),
+      $bodyCells = $table.find('tbody tr:first').children(),
+      colWidth;
+
+    // Adjust the width of thead cells when window resizes
+    $(window).resize(function() {
+      // Get the tbody columns width array
+      colWidth = $bodyCells.map(function() {
+          return $(this).width();
+      }).get();
+
+      // Set the width of thead columns
+      $table.find('thead tr').children().each(function(i, v) {
+          $(v).width(colWidth[i]);
+      });
+    }).resize(); // Trigger resize handler
+
+    // модальное при 2 клике
+
+    $table.find("tbody tr").on('dblclick', function(e) {
+      e.preventDefault();
+      $('#myModal0').modal();
+    });
+
+
+    $('.btn-selection').click(function(event){
+      $('#myModal15').modal({})
+      event.stopPropagation();
+    });
+
+    $('#myModal15 .btn-big-cancel').click(function(event){
+      $('#myModal15').modal('hide');
+      event.stopPropagation();
+    })
+    </script>
+
+</body>
+</html>

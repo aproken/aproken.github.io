@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Система маслораздачи Expert-M | Отчет работоспособности</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bochka.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/input_ctrl.css"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker3.css" />
+
+
+</head>
+
+<body>
+  <div class="top">
+   <div class="container">
+     <div class="row">
+
+     <div class="col-lg-5 col-sm-5 col-md-5 col-xs-2" style="padding-left: 0px;">
+     <!-- Brand -->
+    <div class="brand">
+      <a href="index.html">
+        <img class="logo" src="img/logo.svg" alt="Logo">
+           <div class="logo-text">
+             <ul>
+               <li><h2 class="hidden-sm hidden-md hidden-xs">Система<br>маслораздачи</h2></li>
+               <li class="hidden-md hidden-xs hidden-sm"><h1>Эксперт-М</h1></li>
+               <li><img class="img-responsive brand-company-min hidden-xs" src="img/logo-company.svg" alt="logo"/></li>
+               </ul>
+           </div>
+      </a>
+    </div><!-- ENd Brand -->
+     </div><!-- ENd col-lg-5 -->
+
+     <div class="col-lg-2 col-sm-2 col-md-2">
+     <div class="date-time hidden-xs" id="doc_time">Дата и время</div></div>
+
+     <div class="col-lg-5">
+     <!-- Header Inner Right -->
+    <div class="header-inner-right">
+      <ul class="icons-list">
+         <li class="icons">
+          <a class="btn btn-img btn-user" role="button" data-toggle="collapse" href="#collapseUser" aria-expanded="false" aria-controls="collapseUser" style="margin-right: -15px;"></a>
+         </li>
+         <li class="icons hidden-lg hidden-md hidden-sm"></li>
+         <li class="icons"><span class="badge">0</span></li>
+         <li class="icons"><a href="#" class="fa fa-question-circle-o fa-2x"></a></li>
+         <li class="icons"><a href="#" class="fa fa-cog fa-2x"></a></li>
+         <li class="icons" style="padding-right: 0px;">
+           <a href="#" class="fa fa-power-off fa-2x"></a>
+         </li>
+      </ul>
+      <div class="collapse" id="collapseUser">
+        <p class="user-top">Администратор, <b>Nikolaev.I</b></p>
+      </div>
+    </div><!-- End Header Inner Right -->
+     </div>
+     </div><!-- End row -->
+  </div><!-- End Container -->
+</div><!-- End Top -->
+
+<div id="midle-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-sm-12 col-md-8 col-xs-12">
+        <ul class="topic-page">
+          <li><img style="float: left;" src="img/icon-otchet.svg" alt="login"/></li>
+          <li><h3 class="main-h3" style="padding-top: 15px;">Отчет работоспособности</h3></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+        <div class="btn-toolbar pull-right">
+          <div class="btn-toolbar pull-right">
+            <div class="btn-group">
+              <button type="button" class="btn btn-img btn-reset-otchet"></button>
+              <button type="button" class="btn btn-img btn-my-back"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- row -->
+    <div class="separator" style="margin-top: 15px"></div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="info-h3" style="margin-bottom: 40px;">ФИЛЬТРЫ</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-xs-3" style="padding-left: 0px;">Период с:</label>
+            <div class="dropdown col-lg-6 col-sm-4 col-md-4 col-xs-8">
+            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Дата с...<span class="calendar"></span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dLabel">
+              <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
+              <input type="hidden" id="datepicker-from-input">
+            </div>
+            </div><!-- Конец Выбор -->
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-xs-3" style="padding-left: 0px;">Период по:</label>
+             <div class="dropdown col-lg-6 col-sm-4 col-md-4 col-xs-8 input-append date">
+              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Дата по...<span class="calendar"></span>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dLabel">
+                <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
+                <input type="hidden" id="datepicker-to-input" >
+              </div>
+            </div><!-- Конец Выбор -->
+            </div>
+        </form>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-xs-3" style="padding-left: 0px;">Жидкость:</label>
+              <select class="col-lg-8 col-sm-6 col-md-6 col-xs-8">
+                  <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
+                  <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
+                  <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
+                  <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+                  <option>Мочевина Ufhjgev | 18Y45</option>
+                  <option>Жидкость тормозная Sawernyg | 42Е98</option>
+                  <option>Жидкость тормозная Tunbd | 45E78</option>
+              </select>
+            </div><!-- Конец Выбор -->
+        </form>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-xs-3" style="padding-left: 0px;">Пистолет:</label>
+              <select class="col-lg-6 col-sm-4 col-md-4 col-xs-8">
+                  <option>Пистолет №1</option>
+                  <option>Пистолет №2</option>
+                  <option>Пистолет №3</option>
+                  <option>Пистолет №4</option>
+                  <option>Пистолет №5</option>
+                  <option>Пистолет №6</option>
+                  <option>Пистолет №7</option>
+                  <option>Пистолет №8</option>
+                  <option>Пистолет №9</option>
+                  <option>Пистолет №10</option>
+                  <option>Пистолет №11</option>
+                  <option>Пистолет №12</option>
+                  <option>Пистолет №13</option>
+                  <option>Пистолет №14</option>
+                  <option>Пистолет №15</option>
+                </select>
+              </div><!-- Конец Выбор -->
+        </form>
+      </div>
+      <form class="form-horizontal">
+	      <div class="form-group">
+	            <label class="control-label col-xs-3" style="padding-left: 0px;">Причина остановки:</label>
+	              <select class="col-lg-3 col-sm-4 col-md-4 col-xs-8">
+	                  <option>Причина №1</option>
+	                  <option>Причина №2</option>
+	                  <option>Причина №3</option>
+	                  <option>Причина №4</option>
+	                  <option>Причина №5</option>
+	                </select>
+	      </div><!-- Конец Выбор -->
+	    </form>
+  </div>
+
+  <div class="separator" style="margin-top: 15px"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="info-h3" style="margin-bottom: 40px;">ПАРАМЕТРЫ</h3>
+      </div>
+    </div>
+
+    <div class="row rich-select">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
+            <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
+              <option value="2">Полное название жидкости</option>
+              <option value="3">Краткое название жидкости</option>
+              <option value="4">Номер порта ПЛК</option>
+              <option value="5">Задано, литры</option>
+              <option value="6">Задано, импульсы</option>
+              <option value="7">Значение калибровки</option>
+              <option value="8">Дельта</option>
+              <option value="9">Выдано, литры</option>
+              <option value="10">Выдано, импульсы</option>
+              <option value="11">Дельта реальная</option>
+              <option value="12">Причина остановки</option>
+            </select>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+            <label class="control-label col-xs-3">Действие</label>
+            <div role="group" class="btn-group-vertical btn-group-lg" style="margin-top: 30px;">
+                <button type="button" class="btn btn-img btn-choose-one select-to-allow"></button>
+                <button type="button" class="btn btn-img btn-delete-one select-to-deany"></button>
+                <button type="button" class="btn btn-img btn-choose-all all-to-allow"></button>
+                <button type="button" class="btn btn-img btn-delete-all all-to-deany"></button>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <label class="control-label col-md-6 col-sm-8 col-xs-6">Выбранные поля</label>
+            <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
+              <option value="1">Номер пистолета</option>
+            </select>
+        </div>
+        <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
+        <p class="col-md-12" style="color:#777; text-align: right;">Доступен перенос поля по двойному щелчку.</p>
+    </div>
+    <div class="separator" style="margin-top: 20px"></div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="info-h3" style="margin-bottom: 40px;">СОРТИРОВКА</h3>
+      </div>
+      <div class="col-lg-9 col-md-12 col-sm-12 col-xs-9">
+        <div class="checkbox" style="margin-top: 20px;">
+          <label class="checkbox-inline big-checkbox">
+            <input type="checkbox"> по жидкости
+          </label>
+          <label class="checkbox-inline big-checkbox">
+            <input type="checkbox"> номеру пистолета
+          </label>
+          <label class="checkbox-inline big-checkbox">
+            <input type="checkbox"> причине остановки
+          </label>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-12" style="text-align: center;">
+        <div class="btn-group" >
+          <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
+          <a href="#" class="btn btn-img btn-excel btn-lg" style="margin-right: 40px;"></a>
+          <a href="#" class="btn btn-img btn-save-file btn-lg"></a>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+    <!-- This Footer -->
+      <div class="footer">
+      	<div class="container">
+      		<p class="footer-text hidden-xs hidden-sm" style="float: left;">Разработано и произведено&emsp;</p>
+          <p class="footer-text"  style="float: left;"><a href="http://npoamotiv.ru/"><img class="logo-e img-responsive" src="img/logo_e.svg" alt="logo"/></a>&emsp; <i class="fa fa-phone fa-lg"></i>&nbsp; (812) 309-05-42, (8112) 23-15-15&emsp;
+            <a class="contact-us" href="">Напишите нам</a>
+          </p>
+
+      		<p class="footer-text hidden-xs hidden-sm" style="float: right;">© Copiright. Все права защищены. 2017 г.</p>
+
+      		</div>
+      	</div>
+
+
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script> <!-- jquery libraries -->
+    <script src="js/bootstrap.min.js"></script> <!-- bootsrap libraries -->
+    <script src="js/main.js"></script> <!-- bootsrap libraries -->
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.ru.min.js"></script>
+
+    <script type="text/javascript">
+      $('#datepicker-from').datepicker();
+      $('#datepicker-from').on('changeDate', function() {
+        $('#datepicker-from-input').val(
+            $('#datepicker-from').datepicker('getFormattedDate')
+        );
+      });
+
+      $('#datepicker-to').datepicker();
+      $('#datepicker-to').on('changeDate', function() {
+        $('#datepicker-to-input').val(
+            $('#datepicker-to').datepicker('getFormattedDate')
+        );
+      });
+
+// переход при 2 клике др. на страницу
+      $table.find("tbody tr").on('dblclick', function(e) {
+        window.location = "#"; // main_settings_edit.svg
+      });
+    </script>
+    <script>
+      function richSelectSetItem(wrapEl, id, value){
+          var source = $(wrapEl).find('.select-' + !value);
+          var dest = $(wrapEl).find('.select-' + value);
+          var el = source.find('option[value="'+id+'"]')
+          var text = el.text();
+          var id = el.val();
+          dest.append('<option value="'+ id +'">'+ text +'</option>');
+          source.find('option[value="'+id+'"]').remove();
+      }
+
+      $('.select-true').dblclick(function(e){
+          var wrapEl = $(this).parents('.rich-select')[0];
+          richSelectSetItem(wrapEl, $(this).val()[0], false);
+      });
+      $('.select-false').dblclick(function(e){
+          console.log(e);
+          var wrapEl = $(this).parents('.rich-select')[0];
+          richSelectSetItem(wrapEl, $(this).val()[0], true);
+      });
+
+      $('.select-to-allow').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+            wrapEl.find('.select-false')
+              .val()
+              .map(function(item){
+                  richSelectSetItem(wrapEl, item, true);
+              })
+      });
+
+      $('.select-to-deany').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-true')
+              .val()
+              .map(function(item){
+                  richSelectSetItem(wrapEl, item, false);
+              })
+      })
+
+      $('.all-to-allow').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-false')
+              .find('option')
+              .map(function(x,i){
+                  console.log(i)
+                  console.log(i.value)
+                  return richSelectSetItem(wrapEl, i.value, true);
+              })
+      })
+
+      $('.all-to-deany').click(function (e) {
+          var wrapEl = $(this).parents('.rich-select');
+          wrapEl.find('.select-true')
+              .find('option')
+              .map(function(x,i){
+                  console.log(i.value)
+                  return richSelectSetItem(wrapEl, i.value, false);
+              })
+      })
+
+
+
+
+      $(function() {
+          var deny_c = parseInt($("#permission-deny option").length)
+          var allow_c = parseInt($("#permission-allow option").length)
+          $("#permission-deny").attr("size", deny_c + allow_c);
+          $("#permission-allow").attr("size", deny_c + allow_c);
+      });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#report tr:odd").addClass("odd");
+            $("#report tr:not(.odd)").hide();
+            $("#report tr:first-child").show();
+
+            $("#report tr.odd").click(function(){
+                $(this).next("tr").toggle();
+                $(this).find(".table-arrow").toggleClass("up");
+            });
+            //$("#report").jExpand();
+        });
+    </script>
+<script>
+    // Change the selector if needed
+    var $table = $('table.scroll'),
+      $bodyCells = $table.find('tbody tr:first').children(),
+      colWidth;
+
+    // Adjust the width of thead cells when window resizes
+    $(window).resize(function() {
+      // Get the tbody columns width array
+      colWidth = $bodyCells.map(function() {
+          return $(this).width();
+      }).get();
+
+      // Set the width of thead columns
+      $table.find('thead tr').children().each(function(i, v) {
+          $(v).width(colWidth[i]);
+      });
+    }).resize(); // Trigger resize handler
+
+    // модальное при 2 клике
+
+    $table.find("tbody tr").on('dblclick', function(e) {
+      e.preventDefault();
+      $('#myModal0').modal();
+    });
+
+
+    $('.btn-selection').click(function(event){
+      $('#myModal15').modal({})
+      event.stopPropagation();
+    });
+
+    $('#myModal15 .btn-big-cancel').click(function(event){
+      $('#myModal15').modal('hide');
+      event.stopPropagation();
+    })
+    </script>
+
+</body>
+</html>
